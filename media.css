@@ -1,5 +1,6 @@
 /* Responsive for mobile */
 @media screen and (max-width:576px) {
+/* banner section responsive */
     .banner-conatiner {
         grid-template-columns: 1fr;
         gap: 25ppx;

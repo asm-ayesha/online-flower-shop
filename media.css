@@ -1,6 +1,7 @@
 /* Responsive for mobile */
 @media screen and (max-width:576px) {
-/* banner section responsive */
+
+    /* banner section responsive */
     .banner-conatiner {
         grid-template-columns: 1fr;
         gap: 25ppx;
@@ -38,4 +39,40 @@
         padding: 0;
     }
 
+    /* featured flowers section responsive */
+    .featured-flower {
+        margin: 50px auto;
+    }
+
+    .title {
+        font-size: 25px;
+        padding: 0;
+    }
+
+    .description {
+        font-size: 15px;
+        padding: 15px;
+
+    }
+
+    .flowers-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card img {
+        width: 30%;
+    }
+
+    .mixed-flower img {
+    padding: 80px 70px 60px;
+}
+
+    .flower-name{
+        font-size:15px ;
+    }
 }

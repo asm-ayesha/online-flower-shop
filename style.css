@@ -83,7 +83,6 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
-
 .pink-flower>img {
     width: 70%;
     border-radius: 300px 300px 0px 0px;

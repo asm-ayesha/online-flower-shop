@@ -1,0 +1,53 @@
+/* Font link */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* common styles */
+* {
+    padding: 0px;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+
+/* Banner section styles */
+.banner-conatiner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 97px;
+    background: rgba(229, 84, 115, 0.1);
+}
+
+.banner-content {
+    margin: 197px 0 147px 240px;
+    text-align: center;
+}
+
+.banner-content .banner-title {
+    color: rgba(39, 39, 39, 1);
+    font-size: 80px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.banner-content .banner-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    padding: 32px 0;
+}
+
+.banner-content .banner-btn {
+    background: rgba(229, 84, 115, 1);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 20px 40px;
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+}
+
+.banner-image img {
+    padding: 50px 240px 0px 0px;
+}

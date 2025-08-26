@@ -1,0 +1,40 @@
+/* Responsive for mobile */
+@media screen and (max-width:576px) {
+    .banner-conatiner {
+        grid-template-columns: 1fr;
+        gap: 25ppx;
+    }
+
+    .banner-content {
+        margin: 0 auto;
+    }
+
+    .banner-content .banner-title {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .banner-content .banner-description {
+        font-size: 15px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .banner-content .banner-btn {
+        font-size: 15px;
+        padding: 8px 20px;
+        margin: 0 auto;
+    }
+
+    .banner-image {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .banner-image img {
+        width: 100%;
+        padding: 0;
+    }
+
+}

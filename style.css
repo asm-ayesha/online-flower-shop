@@ -83,6 +83,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
+
 .pink-flower>img {
     width: 70%;
     border-radius: 300px 300px 0px 0px;
@@ -111,4 +112,32 @@
     text-align: center;
     text-decoration-line: underline;
     padding-top: 32px;
+}
+
+
+/* flower service feature */
+.service-feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 86px 175px;
+    margin: 0 244px;
+}
+
+.delivery-man, .local-growers, .support{
+     display: flex;
+    row-gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-text {
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
 }

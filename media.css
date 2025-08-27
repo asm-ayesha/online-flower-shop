@@ -4,7 +4,7 @@
     /* banner section responsive */
     .banner-conatiner {
         grid-template-columns: 1fr;
-        gap: 25ppx;
+        gap: 25px;
     }
 
     .banner-content {

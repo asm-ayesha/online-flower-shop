@@ -135,4 +135,17 @@
         padding: 0;
       
     }
+
+    /* social section responsive */
+    .social-photos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+        gap: 10px;
+    }
+
+    .social-photos > img{
+        width: 100%;
+        text-align: center;
+    }
 }

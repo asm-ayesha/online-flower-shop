@@ -194,3 +194,17 @@ background: rgba(229, 84, 115, 1);
     padding-left: 0;
     text-align: left;
 }
+
+/* social section styles */
+.social-photos{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+    gap: 24px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.social-photos > img{
+    width: 100%;
+}

@@ -75,4 +75,28 @@
     .flower-name{
         font-size:15px ;
     }
+
+
+
+    /* flower service feature */
+.service-feature {
+    padding: 40px;
+    margin: 0 60px;
+}
+
+
+.delivery-man, .local-growers, .support{
+   width: 50%;
+
+}
+
+.delivery-man, .local-growers, .support >img{
+    width: 100%;
+}
+
+.service-text{
+     font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
 }

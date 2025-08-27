@@ -81,28 +81,35 @@
 .flowers-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+      gap: 24px;
+    width: 100%;
+    justify-items: center; 
+    text-align: center;
+
+}
+
+.card > img{
+    width: 50%;
 }
 
 .pink-flower>img {
-    width: 70%;
+   
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: 80px 70px 0;
+    padding: 110px 78px 0 76px;
 }
 
-.mixed-flower img {
-    width: 80%;
+.mixed-flower > img {
+    width: 55%;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding: 117px 47px 40px;
+    padding: 117px 47px 51px;
 }
 
-.yellow-flower img {
-    width: 70%;
+.yellow-flower > img {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    padding: 42px 70px 0;
+    padding: 67px 75px 0;
 }
 
 .flower-name {
@@ -207,4 +214,48 @@ background: rgba(229, 84, 115, 1);
 
 .social-photos > img{
     width: 100%;
+}
+
+
+/* the latest deals section styles */
+.latest-deals{
+    margin: 128px 240px;
+    background-image: url(./assets/Rectangle\ 9.png);
+    border-radius: 8px
+}
+
+.caption{
+     padding-top: 122px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 122px;
+}
+.info .email{
+background: rgba(255, 255, 255, 1);
+border: none;
+outline: none;
+border-radius: 20px 0 0 20px;
+color: rgba(39, 39, 39, 0.6);
+font-size: 16px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+padding: 22px;
+width: 500px;
+
+}
+
+.info .subs-btn{
+    color: white;
+    background: rgba(229, 84, 115, 1);
+    width: 150px;
+    font-size: 16px;
+    border: none;
+    padding: 20px 30px;
+    border-radius:  0 20px 20px 0;
 }

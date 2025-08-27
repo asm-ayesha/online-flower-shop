@@ -61,15 +61,14 @@
 
     .card {
         width: 100%;
-        text-align: center;
     }
 
     .card img {
-        width: 30%;
+        width: 50%;
     }
 
     .mixed-flower img {
-        padding: 80px 70px 60px;
+        padding: 80px 60px;
     }
 
     .flower-name {
@@ -148,4 +147,32 @@
         width: 100%;
         text-align: center;
     }
+
+
+    /* the latest deals section responsive */
+    .latest-deals{
+        margin: 50px 60px;
+    }
+
+    .caption{
+     padding-top: 40px;
+    }
+
+    .info{
+        padding:0 100px 40px 100px ;
+    }
+
+    .info .email{
+padding: 20px;
+width: 200px;
+font-size: 10px;
+
+}
+
+.info .subs-btn{
+    width: 100px;
+    padding: 20px;
+    font-size: 10px;
+   
+}
 }

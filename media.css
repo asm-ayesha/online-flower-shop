@@ -121,58 +121,68 @@
         padding: 20px 10px;
     }
 
-  .offer-image{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-  }
+    .offer-image {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
 
     .offer-image>img {
         width: 50%;
         padding: 0;
-      
+
     }
 
     /* social section responsive */
-    .social-photos{
+    .social-photos {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: 50%;
         gap: 10px;
     }
 
-    .social-photos > img{
+    .social-photos>img {
         width: 100%;
         text-align: center;
     }
 
 
     /* the latest deals section responsive */
-    .latest-deals{
+    .latest-deals {
         margin: 50px 60px;
     }
 
-    .caption{
-     padding-top: 40px;
+    .caption {
+        padding-top: 40px;
     }
 
-    .info{
-        padding:0 100px 40px 100px ;
+    .info {
+        padding: 0 100px 40px 100px;
     }
 
-    .info .email{
-padding: 20px;
-width: 200px;
-font-size: 10px;
+    .info .email {
+        padding: 20px;
+        width: 200px;
+        font-size: 10px;
 
-}
+    }
 
-.info .subs-btn{
-    width: 100px;
-    padding: 20px;
-    font-size: 10px;
-   
-}
+    .info .subs-btn {
+        width: 100px;
+        padding: 20px;
+        font-size: 10px;
+
+    }
+
+    /* footer section responsive */
+
+    .footer-title{
+        padding-top: 40px;
+    }
+
+    .copy-right{
+        padding-bottom: 40px;
+    }
 }
